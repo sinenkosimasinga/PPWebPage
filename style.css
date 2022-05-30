@@ -1,0 +1,88 @@
+body{
+    background-color: lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-color: gray;
+    padding: 1px;
+    text-align: center;
+    border-radius: 1em;
+}
+.intro{
+    background-image: url(images/table\ mountain3.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: lightskyblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.city{
+    background-color: lightskyblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.lang{
+    background-color: lightskyblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.sub{
+    background-color: lightskyblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+}
+.box{
+    border: 3px;
+    padding: 1em;
+    margin: auto;
+    border-radius: 0.7em;
+    display: flex;
+}
+#img1 {
+    width: 300px;
+    height: 350px;
+    margin-left: 1% !important;
+    display: inline-block;
+}
+#img2{
+    width: 400px;
+}
+.table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+h2{
+    text-align: left;
+    color: white;
+    font-size: 3em;
+}
+.sub-lang{
+    margin-left: 0%;
+    text-align: center;
+}
+.tt{
+    background-color: lightgray;
+    margin: 1em;
+    padding: 1em;
+}
+@media(min-width:700px){
+    .sub{
+        display: flex;
+    }
+    .box{
+        display: flex;
+    }
+    .city{
+        display: flex;
+    }
+    .intro{
+        display: flex;
+    }
+
+}
