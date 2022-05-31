@@ -76,7 +76,7 @@ h2{
     padding: 1em;
 }
 @media(min-width:700px){
-    .sub{
+    .sub2{
         display: flex;
     }
     .box{
