@@ -66,6 +66,12 @@ h2{
     color: white;
     font-size: 2em;
 }
+h3{
+    text-align: center;
+}
+p{
+    font-size: small;
+}
 .sub-lang{
     margin-left: 0%;
     text-align: center;
